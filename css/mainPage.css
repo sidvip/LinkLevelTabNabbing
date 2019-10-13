@@ -1,0 +1,40 @@
+.newton {
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin: 15px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.big {
+    margin-top: 10px;
+    margin-left: 500px;
+    width: 200px;
+    height: 200px;
+}
+
+
+p {
+    text-align: justify;
+    position: relative;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue(146, 143, 143);
+}
+
+a:hover {
+    color: green;
+}

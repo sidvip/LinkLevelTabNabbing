@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <style>
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <img style="float: left;width: 500px; height: 400px;" src='./images/hacked.jpg' class='big'>
+    <h2 style="font-size:50px;">Hacked Man ! Go back to your Page </h2>
+    <script>
+        (function changeParentWindow() {
+            if (window.opener === null || window.opener === undefined) {
+                alert('You are Safe Now !');
+            } else {
+                window.opener.location.replace('http://localhost:5000/newPage');
+            }
+
+        })()
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <style>
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function showPassword() {
+            if (document.getElementById('pass').value !== '') {
+                alert('Logged in successfully!');
+            } else {
+                alert('Log in failed!');
+            }
+        }
+    </script>
+    <img style="float: left;" src='./images/hacked.jpg' class='big'>
+    <h2 style="font-size:50px;">Hacked Man ! This was your page </h2>
+    <h1 style="text-align: center;"> Fill the form ! </h1>
+    <form style="text-align: center;">
+        UserName :- <input type="text"> <br> <br>
+        Password:- <input type="password" id='pass'> <br> <br>
+        <button style="border-radius: 5px; width: 80px; height: 25px;" onclick="showPassword()">Button</button>
+    </form>
+    <div id='parentData' style="display: none;"></div>
+</body>
+
+</html>
