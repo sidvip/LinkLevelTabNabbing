@@ -1,4 +1,10 @@
+# *Copyright by Siddhartha Vibhu Pharswan*
+
 # HYAO :-> Hack Yourself At Once
+
+## Prerequisites
+
+* Node.js Only
 
 ## TAB Nabbing :- Description
 
@@ -6,6 +12,6 @@
 
 ## Usage
 
-1- Run `npm i express --no-save`
-2- `node server.js`
-3- Access http://localhost:5000
+    1- Run `npm i express --no-save`
+    2- `node server.js`
+    3- Access http://localhost:5000
